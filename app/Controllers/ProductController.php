@@ -6,8 +6,17 @@ use App\Controllers\BaseController;
 
 class ProductController extends BaseController
 {
-    public function index()
+    public function product($product)
     {
-        //
+        echo $product;
     }
+    public function lesterancheta()
+    {
+      return view ('products');
+    }
+     public function index()
+   
+     {
+        //
+     }
 }
